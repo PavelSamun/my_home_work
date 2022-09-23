@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  background-color: rgb(190, 225, 231);
+  background-color: rgb(170, 241, 254);
 }
 
 .wrapper {
@@ -53,7 +53,7 @@ body {
   display: flex;
   align-items: center;
   height: inherit;
-  animation: slideshow 30s linear infinite;
+  animation: slideshow 20s linear infinite;
 }
 
 .slide__image {

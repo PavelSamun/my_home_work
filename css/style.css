@@ -34,18 +34,18 @@ body {
   content: "";
   height: 200px;
   width: 200px;
-  background-color: rgb(151, 23, 23);
   z-index: 2;
   top: 0;
+  background-color: rgb(151, 23, 23);
+  background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
 }
 
 .carousel::before {
-  background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
   left: 0;
 }
 
 .carousel::after {
-  background: linear-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+  transform: rotate(180deg);
   right: 0;
 }
 
